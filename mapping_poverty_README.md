@@ -7,6 +7,7 @@ For this hands-on exercise, we'll map poverty rates in California by county.
 First, let's level up on on how the government measures [poverty](https://en.wikipedia.org/wiki/Poverty#Measuring_poverty). It's a complicated endeavor, to say the least...
 
 * Crash course in measuring poverty, courtesy of the [West Wing](https://www.youtube.com/watch?v=q9EehZlw-zk)
+* [How the Census Measures Poverty](https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html)
 * [NYT: U.S. Recovery Eludes Many Living Below Poverty Level, Census suggests](https://www.nytimes.com/2018/09/13/us/politics/poverty-rate-census-bureau.html)
 * [Income and Poverty in the United States: 2017](https://www.census.gov/content/census/en/library/publications/2018/demo/p60-263.html)
 
