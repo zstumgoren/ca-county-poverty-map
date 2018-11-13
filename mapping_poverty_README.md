@@ -44,7 +44,7 @@ Select the file called `S1701 POVERTY STATUS IN THE PAST 12 MONTHS` from the 201
 ![Select 5 yr ACS](images/census_select_2016_5yr_acs.png)
 
 
-> Note, we're using this file because 5-year estimates are generally more accurate and this includes data for all 58 CA counties, whereas the most recent 2017 1-year estimate only contains data for 40 counties.
+> Note, we're using this file because 5-year estimates are generally more accurate and include data for all 58 CA counties, whereas the most recent 2017 1-year estimate only contains data for 40 counties that are large enough to meet the [requirements](https://www.census.gov/programs-surveys/acs/guidance/estimates.html) for the 1-year estimate.
 
 ### Pre-filtering the Census data
 
