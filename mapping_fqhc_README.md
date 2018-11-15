@@ -119,7 +119,7 @@ large -- perhaps the largest -- number of health center sites in California. Why
 
 It turns out that the Heatmap feature of Fusion Tables has a limit of 1000 rows. So it's likely that our data is being truncated. The [Fusion Tables Heatmap docs](https://support.google.com/fusiontables/answer/1152262) suggest filtering your data to stay under the 1000-record limit. 
 
-You could alternatively try a different tool such as Flourish or Tableau for this kind of visual display.
+You could alternatively try a different tool such as [Kepler.gl](http://kepler.gl/) or [Tableau](https://www.tableau.com/) for this kind of visual display.
 
 *When creating heatmaps in Fusion tables, be sure to keep this limit in mind!*
 
