@@ -1,20 +1,20 @@
 # Layering on health centers
 
-For this hands-on exercise, we'll add the locations of [CA Federally Qualified Health Centers][] to our [CA county map of poverty rates](mapping_poverty_README.md). 
+For this hands-on exercise, we'll add the locations of [Federally Qualified Health Centers][] to our [CA county map of poverty rates](mapping_poverty_README.md). 
 
 [FQHCs](https://bphc.hrsa.gov/about/what-is-a-health-center/index.html) are a little-known but important piece of the American health-care system. The 1,400-plus centers nationwide provide affordable primary-care services to more than 27 million underserved and uninsured people.
 
-They have played an important role in disaster recovery as well, such as following [Hurricane Harvey](https://www.tribtalk.org/2018/11/12/embrace-community-health-centers-as-a-crucial-part-of-texas-disaster-response/).
+They have played an important role in [disaster recovery](https://www.tribtalk.org/2018/11/12/embrace-community-health-centers-as-a-crucial-part-of-texas-disaster-response/) and serve an [increasing number of people in California](https://www.chcf.org/publication/californias-federally-qualified-health-centers/).
 
 Here's a [doctor's perspective](http://www.wshc.org/news-item/taking-closer-look-importance-federally-qualified-health-centers/) on the vital role of FQHCs, and how their funding is under threat.
 
-This exercise will focus on simply overlaying the location of CA FQHCs on our thematic map of poverty rates by county. 
+This exercise will focus on simply overlaying the location of FQHCs on our thematic map of poverty rates by county. 
 
 Keep in mind that this has limited use journalistically, and is mainly intended to demonstrate how to map point data with Google Fusion Tables, and overlay that point data on a thematic map.
 
 A more rigorous and useful analysis might entail using GIS software to compare service coverage areas (such as this [Palo Alto example](https://bphc.hrsa.gov/uds/images/map/2017/GranteeSA2017_LALCS00001.jpg)) with demographic information relevant to those coverage areas.
 
-Such an analysis could explore how well health centers and their delivery sites match the needs of populations in their coverage areas, whether there are gaps in coverage or over-delivery of services in particular areas.
+Such an analysis could explore how well health centers and their delivery sites match the needs of populations in their coverage areas, and whether there are gaps in coverage or over-delivery of services in particular areas.
 
 Some Montana researchers, for example, are looking at "pregnancy-related outcomes and disparities," according to this [press release](https://www.eurekalert.org/pub_releases/2018-10/msu-msr102918.php).
 
@@ -177,12 +177,10 @@ Copy this code to a text file called `ca_poverty_and_fqhc_sites.html` and open i
 
 ## Resources
 
-* [Federally Qualified Health Centers for CA](https://www.chcf.org/publication/californias-federally-qualified-health-centers/)
-* [Tutorial: Fusion Tables Layer Wizard](https://www.datavizforall.org/fusion/wizard/)
-* [Fusion Tables Layer Wizard][]
+* [Fusion Tables Layer Wizard](https://www.datavizforall.org/fusion/wizard/)
+* HRSA [Data Portal][]
 
 
 [Data Portal]: https://data.hrsa.gov/hdw/tools/DataPortal.aspx
-[FQHC data]: https://bphc.hrsa.gov/uds/lookalikes.aspx?year=2017&state=CA#glist
-[CA Federally Qualified Health Centers]: https://bphc.hrsa.gov/uds/lookalikes.aspx?year=2017&state=CA#glist
+[Federally Qualified Health Centers]: https://bphc.hrsa.gov/about/index.html
 [Fusion Tables Layer Wizard]: http://htmlpreview.github.io/?https://github.com/fusiontable-gallery/fusion-tables-api-samples/blob/master/FusionTablesLayerWizard/src/index.html
