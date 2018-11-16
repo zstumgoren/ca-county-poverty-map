@@ -154,7 +154,10 @@ We'll use a third-party tool called [Fusion Tables Layer Wizard][] to help gener
 
 > Note: In order to use such a solution on a world-facing website, you would need to add a [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key) to the code and ensure it has [appropriate restrictions](https://developers.google.com/maps/api-key-best-practices).
 
-* Gather the public URLs for the [poverty map](https://fusiontables.google.com/data?docid=1v82zW0leTB83u_Q-GERcoF_WWLLkjTtBoe1Hhk_e#map:id=3) and [health center map](https://fusiontables.google.com/data?docid=1xMn6Rj--EwmWbx6qv1pQ_p-hnYJ1EyDyrexFhNZa#map:id=3). This requires going to `Tools -> Publish` in each Fusion Table and grabbing the first link from the pop-up.
+* Gather the public URLs for the [poverty map](https://fusiontables.google.com/data?docid=1v82zW0leTB83u_Q-GERcoF_WWLLkjTtBoe1Hhk_e#map:id=3) and [health center map](https://fusiontables.google.com/data?docid=1xMn6Rj--EwmWbx6qv1pQ_p-hnYJ1EyDyrexFhNZa#map:id=3). For each table, this requires:
+  * Clicking the tab that displays the map
+  * Clicking `Tools -> Publish`
+  * Grabbing the first link from the pop-up
 * Go to [Fusion Tables Layer Wizard][]
 * In the area that says `Add map layers`, enter the link to the poverty map in the first blue box in the `Embed link` field and click `Put layer on map`
 ![Add poverty layer](images/fqhc/fusion_layer_add_poverty.png)
